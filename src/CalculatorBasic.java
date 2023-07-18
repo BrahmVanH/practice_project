@@ -4,16 +4,16 @@ public class CalculatorBasic {
     public static void main(String[] args) {
 
         System.out.println("Odin Tech Basic Calculator");
-        System.out.println("Capable of basic addition, subtraction, multiplication, and division");
+        System.out.println("Capable of basic addition, subtraction, multiplication, and division to the 100th decimal.");
 
         Scanner Calc = new Scanner(System.in);
-        int n1;
-        int n2;
-        int solution;
+        double n1;
+        double n2;
+        double solution;
 
-        System.out.println("Please enter first integer...");
+        System.out.println("Please enter first number...");
         n1 = Calc.nextInt();
-        System.out.println("Please enter second integer...");
+        System.out.println("Please enter second number...");
         n2 = Calc.nextInt();
         System.out.println("Please enter order of operation...");
         char operator = Calc.next().charAt(0);
