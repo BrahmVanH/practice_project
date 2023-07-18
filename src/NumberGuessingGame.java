@@ -15,7 +15,6 @@ public class NumberGuessingGame {
 
             double randomDouble = Math.floor(Math.random() * 20);
             int randomNumber = (int) randomDouble;
-            System.out.println(randomNumber);
 
             while (true) {
 
